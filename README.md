@@ -33,7 +33,7 @@
 | Единица | Локальный файл | Вариант | Исходная страница | Автор | Лицензия | Изменения |
 |---|---|---|---|---|---|---|
 | information | audio/information-us.mp3 | en-US | https://commons.wikimedia.org/wiki/File:En-us-information.ogg | Dvortygirl | CC BY-SA 3.0 | MP3-транскодирование Wikimedia Commons, иных изменений нет |
-| technology | audio/technology-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
+| technology | audio/technology-us.mp3 | en-US | https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-technology.wav | Vealhurl | CC-BY-SA-4.0 |нет|
 | user | audio/user-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
 | interface | audio/interface-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
 | data | audio/data-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
