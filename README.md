@@ -32,11 +32,11 @@
 
 | Единица | Локальный файл | Вариант | Исходная страница | Автор | Лицензия | Изменения |
 |---|---|---|---|---|---|---|
-| information | audio/information-us.mp3 | en-US | https://commons.wikimedia.org/wiki/File:En-us-information.ogg | Dvortygirl | CC BY-SA 3.0 | MP3-транскодирование Wikimedia Commons, иных изменений нет |
-| technology | audio/technology-us.mp3 | en-US | https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-technology.wav | Vealhurl | CC-BY-SA-4.0 |нет|
-| user | audio/user-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
-| interface | audio/interface-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
-| data | audio/data-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
+| information | audio/information-us.mp3 | en | https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Wodencafe-information.wav | Wodencafe | CC0 |  нет |
+| technology | audio/technology-us.mp3 | en | https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-technology.wav | Vealhurl | CC-BY-SA-4.0 |нет|
+| user | audio/user-us.mp3 | en | https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Arlo_Barnes-user.wav | Arlo Barnes | CC0 | Changed an entity: automatically adding structured data based on file information undo Tag: Bot adding SDC |
+| interface | audio/interface-us.mp3 | en | https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-interface.wav |  Vealhurl | CC BY-SA 4.0 | hanged an entity: Adding Lingua Libre ID (P10369), recording date (P10135), recordist (P10893), spoken by (P10894) undo |
+| data | audio/data-us.mp3 | en | https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Wodencafe-data.wav | Wodencafe | CC0 | Changed an entity: automatically adding structured data based on file information undo Tag: Bot adding SDC |
 | structure | audio/structure-us.mp3 | en-US | УКАЖИТЕ ССЫЛКУ | УКАЖИТЕ АВТОРА | УКАЖИТЕ ЛИЦЕНЗИЮ | УКАЖИТЕ, ЕСЛИ БЫЛИ |
 
 ### Резервный синтез речи (Web Speech API)
