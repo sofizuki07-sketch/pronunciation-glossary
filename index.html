@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Произносительный глоссарий</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <p class="eyebrow">Профессиональный английский</p>
+      <h1>Произносительный глоссарий</h1>
+      <p>Сравните произношение отдельных слов и словосочетаний.</p>
+    </header>
+
+    <section class="glossary" aria-labelledby="glossary-title">
+      <h2 id="glossary-title">Термины и словосочетания</h2>
+
+      <article class="group" aria-labelledby="group-1-title">
+        <h3 id="group-1-title">Information technology</h3>
+        <div class="formula" role="group" aria-label="information плюс technology равно information technology">
+          <button class="term-button" type="button"
+                  data-word="information"
+                  data-lang="en-US"
+                  data-audio="audio/information-us.mp3">
+            <span class="term" lang="en">information</span>
+            <span class="ipa" lang="en">/ˌɪn.fɚˈmeɪ.ʃən/</span>
+            <span class="hint">Прослушать</span>
+          </button>
+
+          <span class="operator" aria-hidden="true">+</span>
+
+          <button class="term-button" type="button"
+                  data-word="technology"
+                  data-lang="en-US"
+                  data-audio="audio/technology-us.mp3">
+            <span class="term" lang="en">technology</span>
+            <span class="ipa" lang="en">/tekˈnɑː.lə.dʒi/</span>
+            <span class="hint">Прослушать</span>
+          </button>
+
+          <span class="operator" aria-hidden="true">=</span>
+
+          <button class="term-button term-button--phrase" type="button"
+                  data-word="information technology"
+                  data-lang="en-US"
+                  data-audio="">
+            <span class="term" lang="en">information technology</span>
+            <span class="ipa" lang="en">/ˌɪn.fɚˈmeɪ.ʃən tekˈnɑː.lə.dʒi/</span>
+            <span class="hint">Синтез речи</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="group" aria-labelledby="group-2-title">
+        <h3 id="group-2-title">User interface</h3>
+        <div class="formula" role="group" aria-label="user плюс interface равно user interface">
+          <button class="term-button" type="button"
+                  data-word="user"
+                  data-lang="en-US"
+                  data-audio="audio/user-us.mp3">
+            <span class="term" lang="en">user</span>
+            <span class="ipa" lang="en">/ˈjuː.zɚ/</span>
+            <span class="hint">Прослушать</span>
+          </button>
+
+          <span class="operator" aria-hidden="true">+</span>
+
+          <button class="term-button" type="button"
+                  data-word="interface"
+                  data-lang="en-US"
+                  data-audio="audio/interface-us.mp3">
+            <span class="term" lang="en">interface</span>
+            <span class="ipa" lang="en">/ˈɪn.tɚ.feɪs/</span>
+            <span class="hint">Прослушать</span>
+          </button>
+
+          <span class="operator" aria-hidden="true">=</span>
+
+          <button class="term-button term-button--phrase" type="button"
+                  data-word="user interface"
+                  data-lang="en-US"
+                  data-audio="">
+            <span class="term" lang="en">user interface</span>
+            <span class="ipa" lang="en">/ˈjuː.zɚ ˈɪn.tɚ.feɪs/</span>
+            <span class="hint">Синтез речи</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="group" aria-labelledby="group-3-title">
+        <h3 id="group-3-title">Data structure</h3>
+        <div class="formula" role="group" aria-label="data плюс structure равно data structure">
+          <button class="term-button" type="button"
+                  data-word="data"
+                  data-lang="en-US"
+                  data-audio="audio/data-us.mp3">
+            <span class="term" lang="en">data</span>
+            <span class="ipa" lang="en">/ˈdeɪ.tə/</span>
+            <span class="hint">Прослушать</span>
+          </button>
+
+          <span class="operator" aria-hidden="true">+</span>
+
+          <button class="term-button" type="button"
+                  data-word="structure"
+                  data-lang="en-US"
+                  data-audio="audio/structure-us.mp3">
+            <span class="term" lang="en">structure</span>
+            <span class="ipa" lang="en">/ˈstrʌk.tʃɚ/</span>
+            <span class="hint">Прослушать</span>
+          </button>
+
+          <span class="operator" aria-hidden="true">=</span>
+
+          <button class="term-button term-button--phrase" type="button"
+                  data-word="data structure"
+                  data-lang="en-US"
+                  data-audio="">
+            <span class="term" lang="en">data structure</span>
+            <span class="ipa" lang="en">/ˈdeɪ.tə ˈstrʌk.tʃɚ/</span>
+            <span class="hint">Синтез речи</span>
+          </button>
+        </div>
+      </article>
+
+      <p id="status" class="status" role="status" aria-live="polite">
+        Выберите слово или словосочетание.
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Источники аудио и лицензии указаны в
+        <a href="README.md">README.md</a>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
