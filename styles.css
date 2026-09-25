@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #17252b;
+  background: #eef3f4;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  margin: 0 0 .4rem;
+  color: #155b64;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+  color: #44565e;
+}
+
+.glossary {
+  padding: clamp(1rem, 3vw, 2rem);
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0 1rem 2.5rem rgb(23 37 43 / 12%);
+}
+
+.glossary h2 {
+  margin-top: 0;
+}
+
+.group + .group {
+  margin-top: 2.25rem;
+}
+
+.group h3 {
+  margin: 0 0 1rem;
+  color: #155b64;
+  font-size: 1.25rem;
+}
+
+.formula {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1.35fr);
+  gap: .75rem;
+  align-items: stretch;
+}
+
+.term-button {
+  display: grid;
+  gap: .35rem;
+  align-content: center;
+  min-height: 9rem;
+  padding: 1rem;
+  border: 2px solid #80bfc4;
+  border-radius: 1rem;
+  color: #17252b;
+  background: #e8f3f4;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color .18s ease, transform .18s ease, filter .18s ease;
+}
+
+.term-button:hover {
+  background: #d6ebed;
+}
+
+.term-button--phrase {
+  color: #fff;
+  border-color: #155b64;
+  background: #155b64;
+}
+
+.term-button--phrase:hover {
+  background: #0d4148;
+}
+
+.term-button:focus-visible {
+  outline: 4px solid #f4b942;
+  outline-offset: 3px;
+}
+
+.term-button[aria-busy="true"] {
+  transform: translateY(2px);
+  filter: saturate(1.25);
+}
+
+.term {
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+.ipa {
+  font-family: "Noto Sans", "Segoe UI", sans-serif;
+  font-size: .95rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.hint {
+  font-size: .84rem;
+  opacity: .78;
+}
+
+.operator {
+  align-self: center;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.status {
+  min-height: 1.5em;
+  margin: 1rem 0 0;
+  color: #44565e;
+}
+
+footer {
+  margin-top: 1rem;
+  font-size: .9rem;
+}
+
+footer a {
+  color: #155b64;
+}
+
+@media (max-width: 760px) {
+  .formula {
+    grid-template-columns: 1fr;
+  }
+
+  .operator {
+    justify-self: center;
+  }
+
+  .term-button {
+    min-height: 7rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .term-button {
+    transition: none;
+  }
+}
